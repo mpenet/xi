@@ -49,7 +49,3 @@
   (-wrap [x]))
 
 (defprotocol Future)
-
-(defn async?
-  [x]
-  (satisfies? Future x))
