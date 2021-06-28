@@ -1,4 +1,4 @@
-(ns qbits.ix.protocols)
+(ns qbits.xi.protocols)
 
 (defprotocol Then
   (-then [_ f] [_ f executor]))
