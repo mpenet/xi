@@ -18,7 +18,7 @@
 (defprotocol Complete!
   (-complete! [_ f executor]))
 
-(defprotocol SuccessPred
+(defprotocol Success?
   (-success? [_]))
 
 (defprotocol Error!
