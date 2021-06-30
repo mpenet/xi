@@ -21,4 +21,3 @@
 (def handle #'p/-handle)
 (def realized? #'p/-realized?)
 (def when-complete #'p/-when-complete)
-(def wrap #'p/-wrap)

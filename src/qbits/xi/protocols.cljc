@@ -46,7 +46,4 @@
 (defprotocol WhenComplete
   (-when-complete [_ f] [_ f executor]))
 
-(defprotocol Wrap
-  (-wrap [x]))
-
 (defprotocol Future)
