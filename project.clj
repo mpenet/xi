@@ -1,4 +1,4 @@
-(defproject cc.qbits/xi "0.1.6"
+(defproject cc.qbits/xi "0.1.7-SNAPSHOT"
   :description ""
   :url "http://github.com/mpenet/xi"
   :license {:url "https://www.eclipse.org/legal/epl-2.0/"}
