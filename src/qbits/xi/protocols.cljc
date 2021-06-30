@@ -1,5 +1,5 @@
 (ns qbits.xi.protocols
-  #?(:cljs (:refer-clojure :exclude [-realized? Empty])))
+  #?(:cljs (:refer-clojure :exclude [-realized? Empty -empty])))
 
 (defprotocol Then
   (-then [_ f] [_ f executor]))
@@ -47,6 +47,6 @@
   (-when-complete [_ f] [_ f executor]))
 
 (defprotocol Empty
-  (-Empty [x]))
+  (-empty [x]))
 
 (defprotocol Future)
