@@ -1,4 +1,5 @@
-(ns qbits.xi.protocols)
+(ns qbits.xi.protocols
+  #?(:cljs (:refer-clojure :exclude [-realized?])))
 
 (defprotocol Then
   (-then [_ f] [_ f executor]))
