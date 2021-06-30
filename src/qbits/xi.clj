@@ -1,5 +1,5 @@
 (ns qbits.xi
-  (:refer-clojure :exclude [future? realized?])
+  (:refer-clojure :exclude [future? realized? empty])
   (:require [qbits.xi.protocols :as p]))
 
 (defn future?
@@ -21,3 +21,4 @@
 (def handle #'p/-handle)
 (def realized? #'p/-realized?)
 (def when-complete #'p/-when-complete)
+(def empty #'p/-empty)
